@@ -1,0 +1,6 @@
+{
+    "php.validate.executablePath": ".vscode/php",
+    "cSpell.words": [
+        "CNPJ"
+    ]
+}

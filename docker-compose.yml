@@ -1,0 +1,31 @@
+version: "3"
+
+volumes:
+    bucco-data-mysql8:
+        driver: local
+
+services:
+    mysql8-database:
+        image: mysql:8.0.31
+        volumes:
+            - .:/app:delegated
+            - bucco-data-mysql8:/var/lib/mysql
+        ports:
+            - "3306:3306"
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+            - TZ=America/Sao_Paulo
+
+    bucco:
+        build: .
+        environment:
+            - SERVICE_NGINX_CLIENT_MAX_BODY_SIZE="200M"
+        ports:
+            - "8080:80"
+        volumes:
+            - .:/app:delegated
+            - ~/.composer:/home/application/.composer:delegated
+        links:
+            - mysql8-database
+        extra_hosts:
+            - "host.docker.internal:host-gateway"

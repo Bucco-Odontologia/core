@@ -1,0 +1,2 @@
+command="docker-compose exec supliu php "$@""
+$command
