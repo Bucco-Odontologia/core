@@ -58,7 +58,7 @@
                         </ul>
                     </div>
 
-                    <div class="transform translate-y-full transition-transform duration-200 ease-in-out hidden lg:hidden content-center flex-col w-full bg-black z-50 top-full py-4"
+                    <div class="transform translate-y-full transition-transform duration-200 ease-in-out hidden lg:hidden content-center flex-col w-full bg-brand-black z-50 top-full py-4"
                         id="mobile-menu">
                         <ul class="list-reset flex flex-col items-center space-y-4 2xl:space-y-10">
                             <li><a class="text-brand-gold" href="/">Home</a></li>
