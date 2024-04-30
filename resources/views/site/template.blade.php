@@ -81,7 +81,7 @@
                     <div class="w-fit md:w-1/3 mb-4 md:mb-0 text-center">
                         <div class="w-32">
                             <img src="{{ asset('images/logo.png') }}" alt="" class="mb-1">
-                            (43) 984128-1432
+                            (99) 99999-9999
                         </div>
                     </div>
 

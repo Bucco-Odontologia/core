@@ -11,8 +11,7 @@
                 <h1 class="text-2xl text-brand-gold font-bold text-center mb-4 lg:text-3xl 2xl:text-4xl">Encontre o sorriso dos seus sonhos!</h1>
                 <p class="text-lg text-center mb-0 mt-5">No Bucco, estamos comprometidos em proporcionar a você uma experiência odontológica excepcional. Nossa equipe dedicada está ansiosa para recebê-lo e cuidar da sua saúde bucal com atenção e carinho. Agende sua avaliação gratuita através do nosso site hoje mesmo e dê o primeiro passo rumo a um sorriso saudável e radiante.</p>
 
-                <form method="POST" action=""
-                    class="w-full space-y-4 md:space-y-8 mt-5">
+                <form method="POST" action="{{ route('lead.store') }}" class="w-full space-y-4 md:space-y-8 mt-5">
                     @csrf
 
                     <div class="relative">
@@ -192,7 +191,7 @@
                     <h1 class="text-xl font-bold mb-4 lg:text-3xl 2xl:text-4xl">Alcance o sorriso dos seus sonhos!</h1>
                     <p class="text-lg text-center">No Bucco, estamos comprometidos em proporcionar a você uma experiência odontológica excepcional. Nossa equipe dedicada está ansiosa para recebê-lo e cuidar da sua saúde bucal com atenção e carinho. Agende sua avaliação gratuita através do nosso site hoje mesmo e dê o primeiro passo rumo a um sorriso saudável e radiante.</p>
 
-                    <form method="POST" action="" class="w-full space-y-4 mt-4 md:space-y-8">
+                    <form method="POST" action="{{ route('lead.store') }}" class="w-full space-y-4 mt-4 md:space-y-8">
                         @csrf
 
                         <div class="relative">
