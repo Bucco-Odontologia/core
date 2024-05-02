@@ -12,6 +12,18 @@
 
     <title>Bucco Odontologia</title>
 
+    <style>
+        .whatsapp {
+            width: 60px;
+            height: 60px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            cursor: pointer;
+            z-index: 10;
+        }
+    </style>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -75,13 +87,19 @@
             @yield('content')
         </div>
 
+        <div>
+            <a target="_blank" href="https://wa.me/553131570797">
+                <img class="whatsapp" src="{{ url('images/whatsapp_green.png') }}">
+            </a>
+        </div>
+
         <footer class="bg-brand-black text-white py-8 md:px-12 lg:px-24">
             <div class="container mx-auto">
                 <div class="flex flex-col md:flex-row items-center">
                     <div class="w-fit md:w-1/3 mb-4 md:mb-0 text-center">
                         <div class="w-32">
                             <img src="{{ asset('images/logo.png') }}" alt="" class="mb-1">
-                            (99) 99999-9999
+                            (31) 3157-0797
                         </div>
                     </div>
 

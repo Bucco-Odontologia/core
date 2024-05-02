@@ -7,7 +7,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
 
-        <title>@yield('title') - Fabricio Fidelis</title>
+        <title>@yield('title') - Bucco Odontologia</title>
 
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
@@ -21,7 +21,7 @@
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <a class="navbar-brand ps-3" href="{{ route('admin.lead') }}">Fabricio Fidelis</a>
+            <a class="navbar-brand ps-3" href="{{ route('admin.lead') }}">Buccco Odontologia</a>
 
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!">
                 <i class="fas fa-bars"></i>
